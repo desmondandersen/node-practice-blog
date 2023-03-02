@@ -1,21 +1,17 @@
 const http = require("http");
 const fs = require("fs");
+const _ = require("lodash");
+
 // To-do: learn web sockets
 
 const server = http.createServer((req, res) => {
-  console.log("REQ:", req.url, req.method);
-
-  // STATUS CODES:
-  // 200 - OK
-  // 301 - Resource moved
-  // 404 - Not found
-  // 500 - Internal server error
+  // console.log("REQ:", req.url, req.method);
 
   // Set header content type
   res.setHeader("Content-Type", "text/html");
 
   // Routing
-  let path = "./";
+  let path = "./pages/";
   switch (req.url) {
     case "/":
       path += "index.html";

@@ -1,0 +1,18 @@
+{
+  "name": "practice-blog",
+  "version": "1.0.0",
+  "description": "Simple blog to practice Node",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/desmondandersen/node-practice-blog.git"
+  },
+  "author": "Desmond Andersen",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
