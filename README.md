@@ -4,4 +4,4 @@
 
 ### Running
 
-- Start server at http://localhost:3000/: `node server`
+- Start server at http://localhost:3000/: `node app`
